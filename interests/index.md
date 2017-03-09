@@ -1,7 +1,4 @@
 ---
-layout: default
+layout: interests
 title: Moje záujmy
 ---
-# {{ page.title }}
-
-Moje záujmy sú všeliake.
