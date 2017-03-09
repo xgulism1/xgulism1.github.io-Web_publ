@@ -2,8 +2,8 @@
 layout: default
 ---
 {{ content }}
-{% assign games = site.data.games | sort: "name" %}
-{% for game in games_data %}
+{% assign games = site.data.games_data | sort: "name" %}
+{% for game in games %}
 <section class = "game">
 	<div class="imageWrapper">
 		<img src={{site.baseurl}}/{{ game.image }} alt="{{ game.name }}" title="{{ game.name }}" />
