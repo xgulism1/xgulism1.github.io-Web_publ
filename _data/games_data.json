@@ -1,9 +1,9 @@
 [{
     "name": "Empire Earth",
-    "file": "img/Empire_Earth.jpg"
+    "image": "img/Empire_Earth.jpg"
 	"desc": "strategia"
 },{
     "name": "Talos Principle",
-    "file": "img/Talos_Principle.jpg"
+    "image": "img/Talos_Principle.jpg"
 	"desc": "logicka hra"
 }]
