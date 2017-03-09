@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+{{ content }}
 {% assign games = site.data.games | sort: "name" %}
 {% for game in games %}
 <section class = "game">
