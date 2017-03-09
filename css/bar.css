@@ -20,7 +20,7 @@ a {
     text-decoration: none;
 }
 
-nav li a:hover:not(.active), footer li a:hover:not(.active) {
+nav li a:hover:not, footer li a:hover:not {
     background-color: #111;
 }
 
