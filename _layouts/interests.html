@@ -5,9 +5,10 @@ layout: default
 {% assign games = site.data.games_data | sort: "name" %}
 {% for game in games %}
 <section class = "game">
+	<h2>{{ game.name }}</h2>
 	<div class="imageWrapper">
-		<img src={{site.baseurl}}/{{ game.image }} alt="{{ game.name }}" title="{{ game.name }}" />
+		<img src={{site.baseurl}}/{{ game.image }} alt="{{ game.name }}" height = "500dp"/>
 	</div>
-	<p>{{game.desc}}</p>
+	<p>{{ game.desc }}</p>
 </section>
 {% endfor %}
