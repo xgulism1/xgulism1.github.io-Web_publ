@@ -2,6 +2,6 @@
 layout: default
 title: Moje záujmy
 ---
-#{{ page.title }}
+# {{ page.title }}
 
 Moje záujmy sú všeliake.

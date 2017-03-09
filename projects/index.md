@@ -2,6 +2,6 @@
 layout: default
 title: Moje projekty
 ---
-#{{ page.title }}
+# {{ page.title }}
 
 Moje projekty sú všeliake.

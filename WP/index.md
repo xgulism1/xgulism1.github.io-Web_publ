@@ -2,6 +2,6 @@
 layout: default
 title: Webové publikovanie
 ---
-#{{ page.title }}
+# {{ page.title }}
 
 Sem budem pridávať projekty z predmetu Webové publikovanie.
