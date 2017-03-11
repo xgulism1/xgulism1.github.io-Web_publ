@@ -1,0 +1,24 @@
+---
+layout: default
+---
+{{ content }}
+
+<div class="pageParts">
+	<h1>Tu je zoznam niektorých mojich obľúbených filmov a seriálov</h1>
+</div>
+
+{% assign films = site.data.films | sort: "rating" | reverse %}
+{% for film in films %}
+<section class = "film">
+	<div class="allFilmsWrap">
+		<h2>{{ film.name }}</h2>
+		{% youtube film.trailer %}
+		<ul class="pageParts" style="list-style-type:none">
+			<li><strong>Kategória:</strong> {{ film.category }}</li>
+			<li><strong>Žáner:</strong> {{ film.genre }}</li>
+			<li><strong>Dátum vydania:</strong> {{ film.date | date_to_string }}</li>
+			<li><strong>Moje hodnotenie:</strong> {{ film.rating }} / 20</li>
+		</ul>
+	</div>
+</section>
+{% endfor %}

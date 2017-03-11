@@ -1,0 +1,31 @@
+---
+layout: default
+---
+{{ content }}
+
+<div class="pageParts">
+	<h1>Tu je zoznam niektorých mojich obľúbených hier</h1>
+</div>
+
+{% assign games = site.games | sort: "name" %}
+{% for game in games %}
+<section class = "game">
+	<div class="allGamesWrap">
+		<h2>{{ game.name }}</h2>
+		<div class="gameImageWrap" style="float:left">
+			<img src="{{ game.image }}" height = "300dp" alt="{{ game.name }}" title="{{ game.name }}"/>
+			<div class="gameDesc">
+				<a href="{{ game.source }}" title="{{ game.source }}" target="_blank">zdroj</a>
+			</div>
+		</div>
+		<ul class="pageParts">
+			<li><strong>Žáner:</strong> {{ game.genre }}</li>
+			<li><strong>Dátum vydania:</strong> {{ game.date | date_to_string }}</li>
+			<li><strong>Vývojár:</strong> {{ game.developer }}</li>
+			<li><strong>Vydavateľstvo:</strong> {{ game.publisher }}</li>
+			<li><strong>Web-stránka:</strong> <a href="{{ game.website }}" target="_blank">{{ game.website }}</a></li>
+		</ul>
+		<p>{{ game.content }}</p>
+	</div>
+</section>
+{% endfor %}

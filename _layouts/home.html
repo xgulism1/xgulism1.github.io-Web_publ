@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+{{ content }}
+
+<div class="pageParts">
+	<h1>Časti mojej stránky:</h1>
+
+	{% for link in site.data.pages offset:1 %}
+	<ul class="unstyled">
+		<p><li>{{ link.desc }}<a href="{{ link.url }}">{{ link.name }}</a></li></p>
+	</ul>
+	{% endfor %}
+</div>

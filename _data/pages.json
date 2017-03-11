@@ -1,0 +1,20 @@
+[{
+    "name": "Domov",
+    "url": "/"
+},{
+    "name": "O mne",
+    "url": "/about",
+	"desc": "Niečo viac o mne sa môžete dozvedieť v časti "
+},{
+    "name": "Webové publikovanie",
+    "url": "/wp",
+	"desc": "Moje projekty z predmetu webové publikovanie nájdete v časti "
+},{
+    "name": "Filmy a seriály",
+    "url": "/films_and_series",
+	"desc": "O filmoch a seráloch, ktoré som pozerával sa dozviete v časti "
+},{
+    "name": "Počítačové hry",
+    "url": "/games",
+	"desc": "O hrách, ktoré hrávam sa dozviete v časti "
+}]

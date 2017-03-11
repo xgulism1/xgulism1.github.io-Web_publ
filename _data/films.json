@@ -1,0 +1,22 @@
+[{
+    "name": "Shrek 2",
+	"category": "film",
+	"trailer": "V6X5ti4YlG8",
+	"genre": "Animovaná komédia",
+	"date" : "2004-07-08",
+	"rating" : 17
+},{
+    "name": "Ender's Game",
+	"category": "film",
+	"trailer": "2UNWLgY-wuo",
+	"genre": "Sci-fi",
+	"date" : "2013-10-25",
+	"rating" : 15
+},{
+    "name": "Westworld",
+	"category": "seriál",
+	"trailer": "eX3u0IlBBO4",
+	"genre": "Sci-fi",
+	"date" : "2016-10-02",
+	"rating" : 19
+}]

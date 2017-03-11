@@ -1,9 +1,7 @@
 <nav>
 	<ul>
-		<li><a href="/">Domov</a></li>
-		<li><a href="/about">O mne</a></li>
-		<li><a href="/WP">Webové publikovanie</a></li>
-		<li><a href="/projects">Projekty</a></li>
-		<li><a href="/interests">Záujmy</a></li>
+		{% for link in site.data.pages %}
+		<li><a href="{{ link.url }}">{{ link.name }}</a></li>
+		{% endfor %}
 	</ul>
 </nav>
