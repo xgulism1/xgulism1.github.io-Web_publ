@@ -1,0 +1,59 @@
+---
+layout: default
+---
+<h1>{{ page.title }}</h1>
+
+<div style="padding-bottom: 14px; padding-left: 24px; border: 3px solid #b5b5b5">
+	<h2>O predmete:</h2>
+	<table>
+	  <tbody>
+		<tr>
+		  <td><strong>Typ štúdia:</strong></td>
+		  <td> </td>
+		  <td>{{ page.study_type }}</td>
+		</tr>
+		<tr>
+		  <td><strong>Odbor:</strong></td>
+		  <td> </td>
+		  <td>{{ page.subject_field }}</td>
+		</tr>
+		<tr>
+		  <td><strong>Ročník:</strong></td>
+		  <td> </td>
+		  <td>{{ page.year }}</td>
+		</tr>
+		<tr>
+		  <td><strong>Semester:</strong></td>
+		  <td> </td>
+		  <td>{{ page.semester }}</td>
+		</tr>
+		<tr>
+		  <td><strong>Kredity:</strong></td>
+		  <td> </td>
+		  <td>{{ page.credits }}</td>
+		</tr>
+		<tr>
+		  <td><strong>Garant predmetu:</strong></td>
+		  <td> </td>
+		  <td>{{ page.supervisor }}</td>
+		</tr>
+		<tr>
+		  <td><strong>Cvičiaci:</strong></td>
+		  <td> </td>
+		  <td>{{ page.examiner }}</td>
+		</tr>
+	  </tbody>
+	</table>
+</div>
+
+{{ content }}
+
+<ul class="posts">
+	{% for post in site.posts %}
+		<li>
+			<span>{{ post.date | date_to_string }}</span>
+			&raquo;
+			<a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }} - {{ post.desc }}</a>
+		</li>
+	{% endfor %}
+</ul>

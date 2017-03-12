@@ -4,13 +4,18 @@ title: O mne
 ---
 # {{ page.title }}
 
-Momentálne študujem na Fakulte informatiky a informačných technológií, Slovenskej technickej univerzity v Bratislave.
+Volám sa Martin Gulis a momentálne študujem na FIIT STU v Bratislave.
 
-Už od základnej školy som sa venoval informatike. 
-Na gymnáziu som sa zlepšoval predovšetkým v tomto smere.
-Na vysokú školu som sa prihlásil na Fakultu informatiky a informačných technológií Slovenskej technickej univerzity v Bratislave.
+# Škola a vzdelanie
+
+Už od základnej školy som sa venoval informatike. V tej dobe to bolo však predovšetkým hranie počítačových hier.
+Na gymnáziu som sa už začal venovať aj programovaniu a zlepšoval som sa predovšetkým v tomto smere.
+Napokon som sa prihlásil na FIIT STU v Bratislave.
 Práve som študentom 3. ročníka 6. semestra.
 
-Rád sa venujem informatike a všetkému, čo s ňou súvisí.
-V poslednom čase sa venujem predovšetkým robeniu školských projektov.
-Najradšej programujem v jazyku Java.
+# Záujmy
+
+Okrem mojich záujmov v oblasti [Počítačových hier](/games) alebo [Filmov a seriálov](/films_and_series) sa rád venujem informatike a všetkému, čo s ňou súvisí.
+V poslednom čase je to predovšetkým robenie školských projektov.
+Moju bakalársku prácu programujem na platformu Android.
+Z programovacích jazykov mám najradšej jazyk Java.

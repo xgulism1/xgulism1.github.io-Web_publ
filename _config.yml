@@ -1,5 +1,3 @@
 name: Martin Gulis
 markdown: kramdown
 permalink: /wp/:title
-collections:
-    - games

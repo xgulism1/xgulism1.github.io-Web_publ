@@ -1,14 +1,17 @@
 ---
 layout: default
 ---
-<p><a href="/wp">&laquo; späť</a></p>
 
 <h1>{{ page.title }}</h1>
 
-<ul class="pageParts">
-	<p><li><span><strong>Predmet:</strong></span> {{ page.subject }}</li></p>
-	<p><li><span><strong>Zadanie:</strong></span> {{ page.desc }}</li></p>
-	<p><li><span><strong>Dátum:</strong></span> {{ page.date | date_to_string }}</li></p>
+<ul class="listParts">
+	<li><strong>Predmet: </strong>{{ page.subject }}</li>
+	<li><strong>Zadanie: </strong>{{ page.desc }}</li>
+	<li><strong>Dátum: </strong>{{ page.date | date_to_string }}</li>
 </ul>
 
-{{ content }}
+<div class="listParts">
+	{{ content }}
+</div>
+
+<p><a href="/wp">&laquo; späť</a></p>

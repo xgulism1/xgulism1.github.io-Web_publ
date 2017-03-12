@@ -1,31 +1,33 @@
 ---
 layout: default
 ---
+
 {{ content }}
 
-<div class="pageParts">
-	<h1>Tu je zoznam niektorých mojich obľúbených hier</h1>
-</div>
+<p>&nbsp;</p>
+<div class="listParts">
+	<h1 style="text-align: center">Hry, ktoré ma zaujali</h1>
 
-{% assign games = site.games | sort: "name" %}
-{% for game in games %}
-<section class = "game">
-	<div class="allGamesWrap">
-		<h2>{{ game.name }}</h2>
-		<div class="gameImageWrap" style="float:left">
-			<img src="{{ game.image }}" height = "300dp" alt="{{ game.name }}" title="{{ game.name }}"/>
-			<div class="gameDesc">
-				<a href="{{ game.source }}" title="{{ game.source }}" target="_blank">zdroj</a>
+	{% assign games = site.data.games | sort: "name" %}
+	{% for game in games %}
+	<section class="game">
+		<div class="allGamesWrap">
+			<h2>{{ game.name }}</h2>
+			<div class="gameImageWrap" style="float:left">
+				<img src="{{ game.image }}" width = "400dp" alt="{{ game.name }}" title="{{ game.name }}"/>
+				<div class="gameDesc">
+					<a href="{{ game.source }}" title="{{ game.source }}" target="_blank">zdroj obrázku</a>
+				</div>
 			</div>
+			<ul>
+				<li><strong>Žáner:</strong> {{ game.genre }}</li>
+				<li><strong>Dátum vydania:</strong> {{ game.date | date_to_string }}</li>
+				<li><strong>Vývojár:</strong> {{ game.developer }}</li>
+				<li><strong>Vydavateľstvo:</strong> {{ game.publisher }}</li>
+				<li><strong>Web-stránka:</strong> <a href="{{ game.website }}" target="_blank">{{ game.website | domain_name }}</a></li>
+			</ul>
+			<p>{{ game.desc }}</p>
 		</div>
-		<ul class="pageParts">
-			<li><strong>Žáner:</strong> {{ game.genre }}</li>
-			<li><strong>Dátum vydania:</strong> {{ game.date | date_to_string }}</li>
-			<li><strong>Vývojár:</strong> {{ game.developer }}</li>
-			<li><strong>Vydavateľstvo:</strong> {{ game.publisher }}</li>
-			<li><strong>Web-stránka:</strong> <a href="{{ game.website }}" target="_blank">{{ game.website }}</a></li>
-		</ul>
-		<p>{{ game.content }}</p>
-	</div>
-</section>
-{% endfor %}
+	</section>
+	{% endfor %}
+</div>

@@ -8,4 +8,4 @@ Medzi moje záujmy patria predovšetkým počítačové hry.
 
 Multiplayer hru, ktorú som najdlhšiu dobu hrával bola World of Warcraft.
 Momentálne hrávam už iba singleplayer hry.
-Najradšej mám logické a strategické hry s dôrazom na dobrý príbeh. Preto sa pri strategických hrách zameriavam hlavne na kampane.
+Najradšej mám stratégie a logické hry s dôrazom na dobrý príbeh. Pri strategických hrách sa zameriavam hlavne na kampane.

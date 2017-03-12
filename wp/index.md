@@ -1,21 +1,17 @@
 ---
-layout: web_pub
+layout: subject
 title: Webové publikovanie
+study_type: Bakalárske
+subject_field: Informatika
+year: 3.
+semester: Letný
+credits: 6
+supervisor: doc. RNDr. Petr Šaloun, PhD.
+examiner: Ing. Marián Šimko, PhD.
 ---
-# {{ page.title }}
 
-## O predmete:
+Venujeme sa predovšetkým XML a podobným technológiam.
 
-|**Typ štúdia:** || Bakalárske |
-|**Odbor:** || Informatika |
-|**Ročník:** || 3. |
-|**Semester:** || Letný |
-|**Kredity:** || 6 |
-|**Garant predmetu:** || doc. RNDr. Petr Šaloun, PhD. |
-|**Cvičiaci:** || Ing. Marián Šimko, PhD. |
-
-Tento predmet som si vybral v 3. ročníku 6. semestra na FIIT STU v Bratislave.
-Venujeme sa tu predovšetkým XML a podobným technológiam.
-
-Budem sem pridávať svoje projekty.
+Budem sem pridávať svoje projekty z tohto predmetu.
+Zatiaľ sa tu nachádza iba prvý projekt, ale ďalšie budú postupne nasledovať.
 
