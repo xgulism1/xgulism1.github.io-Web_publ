@@ -18,7 +18,9 @@ layout: default
 			{% else %}
 				<h2>{{ forloop.index }}. {{ film.name }}</h2>
 			{% endif %}
-			{% youtube film.trailer %}
+			{% unless site.safe %}
+				{% youtube film.trailer %}
+			{% endunless %}
 			<ul style="list-style-type:none">
 				<li><strong>Kategória:</strong> {{ film.category }}</li>
 				<li><strong>Žáner:</strong> {{ film.genre }}</li>
