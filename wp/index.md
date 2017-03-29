@@ -13,5 +13,4 @@ examiner: Ing. Marián Šimko, PhD.
 Venujeme sa predovšetkým XML a podobným technológiam.
 
 Budem sem pridávať svoje projekty z tohto predmetu.
-Zatiaľ sa tu nachádza iba prvý projekt, ale ďalšie budú postupne nasledovať.
-
+Už sa tu nachádzajú prvé 2 projekty.
